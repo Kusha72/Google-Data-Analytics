@@ -17,4 +17,4 @@ The company’s future success depends on maximizing the number of annual member
 
 #### DATA PREPARATION
 ##### WHERE IS THE DATA LOCATED?
-The databases that were used for the purpose of the ride share analysis were obtained Motivate, a company that is employed by the City of Chicago to collect data on the bike share operation throughout the city. 
+The [databases](https://divvy-tripdata.s3.amazonaws.com/index.html) that were used for the purpose of the ride share analysis were obtained Motivate, a company that is employed by the City of Chicago to collect data on the bike share operation throughout the city. 
