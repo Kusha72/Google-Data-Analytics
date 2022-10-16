@@ -22,6 +22,14 @@ The [databases](https://divvy-tripdata.s3.amazonaws.com/index.html) that were us
 #### DATA ORGANIZATION
 The data was downloaded as separate CSV files, that were then joined together using SQL to make a new, combined annual database of the previous years worth  of bicycle usage data. The original files contained 13 columns with important information which include ride ID, ride time, start/end locations, etc.
 
+NOTE: The original 12 (monthly) CSV files 
 
-### 
-#### 
+``` SQL
+
+
+
+```
+
+### PROCESS AND CLEANING
+#### REVIEW OF DATA        
+As stated before, the data was processed, cleaned, and analyzed using SQL. 
