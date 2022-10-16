@@ -10,7 +10,11 @@ Cyclistic is a fictional bike sharing company located in Chicago. It operates a 
 
 The company’s future success depends on maximizing the number of annual memberships and needs to understand how casual riders and annual members use Cyclistic bikes differently. From these insights,your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
-#### Business Task
+#### BUSINESS TASK
 - How do annual members and casual riders use Cyclistic bikes differently?
 - Why would casual riders buy Cyclistic annual memberships?
 - How can Cyclistic use digital media to influence casual riders to become members?
+
+#### DATA PREPARATION
+##### WHERE IS THE DATA LOCATED?
+The databases that were used for the purpose of the ride share analysis were obtained Motivate, a company that is employed by the City of Chicago to collect data on the bike share operation throughout the city. 
