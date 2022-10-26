@@ -159,7 +159,7 @@ For further information through the interactive Tablbeau dashboard, [click here]
 > Member riders appear to take more trips throughout the city within the past year, as casual riders only appear to be just short of 1/3 of the total rides
 
 ##### TRIP DURATIONS AND TIMES
-![alt text](./Tableau_Images/Tableau_Dashboard/Trip Duration_and_Times.png)
+![alt text](./Tableau_Images/Tableau_Dashboard/Trip_Duration_and_Times.png)
 
 > - Interestingly, although members make up for most of the rides in Chicago, casual members are using the bikes for a far longer duration. Casual riders average at about 28 minutes a ride while members average at about 12 min per ride, a 58% difference in time. 
 > 	- This trip duration difference could be a result in how riders view their bike usage based off their membership status. Member's who pay for their subscription have the flexibility to lock in lower rates and therefore use the bikes more casually and for quicker trips. Casual members, however, pay more for their usage per trip they take so it's possible that casual riders on average will take trips when needed for longer ride durations rather than pay for short distance trips.
