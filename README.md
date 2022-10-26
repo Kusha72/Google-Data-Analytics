@@ -82,7 +82,11 @@ CREATE TABLE `capstone-362223.Capstone_Project.Annual_Cycling` AS
 #### REVIEW OF DATA        
 As stated before, the data was processed, cleaned, and analyzed using SQL. 
 
+<<<<<<< Updated upstream
 ```sql
+=======
+```
+>>>>>>> Stashed changes
 SELECT COUNT (1) AS total_rows
 FROM `capstone-362223.Capstone_Project.Annual_Cycling`
 ```
@@ -93,7 +97,11 @@ FROM `capstone-362223.Capstone_Project.Annual_Cycling`
 - Ride Length
 - Day of the Week
 
+<<<<<<< Updated upstream
 ```sql
+=======
+```
+>>>>>>> Stashed changes
 create view `capstone-362223.Capstone_Project.View_Cycling` as 
 SELECT *, TIMESTAMP_DIFF(ended_at, started_at, minute) AS ride_length, extract(dayofweek from ended_at) as day_of_week
 FROM `capstone-362223.Capstone_Project.Annual_Cycling`
@@ -127,7 +135,11 @@ having count(1)>1
 ```
 > Checking there are no duplicate ride ID as they are unique for each ride taken
 
+<<<<<<< Updated upstream
 ```sql
+=======
+```
+>>>>>>> Stashed changes
 select *
 from `capstone-362223.Capstone_Project.View_Cycling`
 where started_at IS NULL and ended_at IS NULL
@@ -136,7 +148,11 @@ where started_at IS NULL and ended_at IS NULL
 
 Fortunately, the combined data table did not show any anomolies from the initial review. This may be in part that the data table is only showing a percentage of the original data (due to file size restraints). The only problem that occured while sifting through the table was that a lot of records showed NULL values for start/end stations. Without this information a lot of key information is left out for our analysis and thus must be removed as to not skew the results
 
+<<<<<<< Updated upstream
 ```sql
+=======
+```
+>>>>>>> Stashed changes
 create table capstone-362223.Capstone_Project.Final_Cycling as 
 SELECT *
 FROM capstone-362223.Capstone_Project.View_Cycling
@@ -188,3 +204,10 @@ In order to expand company business and growth, the following recommendations ca
 * As it appears that no particular day of the week nor month show more rider usage, marketing should be targeted towards the busiest time of the day for casual riders which is on average 5 P.M. If August and October can be researched more as to why there is on average 10,000 less riders during those months then marketing strategies can shift focus to try and attain more riders during these lower usage months.
 * Further data should be explored to determine riders who are local to the Chicago area whith a casual membership. Tourists are less likely to convert to membership types if they are only temporarily staying thus focus should be on targeting indivuals who live in the city.
 * Offer discounts to members who are able to convince casual riders to switch over to member status as this will not only help encourage more riders to join the program but also create a sense of community.
+<<<<<<< Updated upstream
+=======
+
+
+
+
+>>>>>>> Stashed changes
