@@ -114,20 +114,20 @@ The process in data cleaning was to make sure that the data table did not includ
 
 The next steps below are taken to confirm that the data set does not have any potential anomolies:
 
-```
+```sql
 Select min (end_lng), max(end_lng), min (end_lat), max(end_lat), min (start_lng), max(start_lng), min (start_lat), max(start_lat)
 from `capstone-362223.Capstone_Project.View_Cycling`
 ```
 > Minimum/maximum values of various columns tested to make sure they comply within the boindaries of their respective category values
 
-```
+```sql
 select rideable_type, count(1)
 from `capstone-362223.Capstone_Project.View_Cycling`
 group by rideable_type
 ```
 > Confirming ride types only show electric, classic, and docked bikes
 
-```
+```sql
 select ride_id, count(1)
 from `capstone-362223.Capstone_Project.View_Cycling`
 group by ride_id
